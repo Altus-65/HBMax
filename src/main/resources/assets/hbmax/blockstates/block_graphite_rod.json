@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "axis=y,out=false":    { "model": "hbmax:block/block_graphite_rod_in" },
+        "axis=z,out=false":     { "model": "hbmax:block/block_graphite_rod_in", "x": 90 },
+        "axis=x,out=false":     { "model": "hbmax:block/block_graphite_rod_in", "x": 90, "y": 90 },
+        "axis=none,out=false":   { "model": "hbmax:block/block_graphite_rod_in" },
+        "axis=y,out=true":    { "model": "hbmax:block/block_graphite_rod_out" },
+        "axis=z,out=true":     { "model": "hbmax:block/block_graphite_rod_out", "x": 90 },
+        "axis=x,out=true":     { "model": "hbmax:block/block_graphite_rod_out", "x": 90, "y": 90 },
+        "axis=none,out=true":   { "model": "hbmax:block/block_graphite_rod_out" }
+    }
+}

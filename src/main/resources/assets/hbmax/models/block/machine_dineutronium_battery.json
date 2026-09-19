@@ -1,0 +1,9 @@
+{
+	"parent": "block/orientable",
+	"textures": {
+		"top": "hbmax:block/battery_dineutronium_top",
+        "bottom": "hbmax:block/battery_dineutronium_top",
+		"front": "hbmax:block/battery_dineutronium_front",
+		"side": "hbmax:block/battery_dineutronium_side"
+	}
+}

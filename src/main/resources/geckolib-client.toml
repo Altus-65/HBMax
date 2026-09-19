@@ -1,0 +1,5 @@
+# GeckoLib Client Configuration
+
+[mixin]
+# Disables the problematic TextureManager mixin
+enableTextureManagerMixin = false

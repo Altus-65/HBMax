@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:ingot_uranium_fuel"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_uf"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_uf.desc"
+		},
+		"frame": "goal"
+	},
+	"parent": "hbmax:progress_centrifuge_2",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:ingot_uranium_fuel"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 36
+    }
+}

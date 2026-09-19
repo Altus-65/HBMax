@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:gas_mask_filter_radon"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_omega_filter"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_omega_filter.desc"
+		}
+	},
+	"parent": "hbmax:progress_mask",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:gas_mask_filter_radon"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 470
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "hbmax:uranium_ore",
+    "hbmax:aluminium_ore",
+    "hbmax:thorium_ore",
+    "hbmax:asbestos_ore",
+    "hbmax:beryllium_ore",
+    "hbmax:cinnebar_ore",
+    "hbmax:coal_oil_burning_ore",
+    "hbmax:coal_oil_ore",
+    "hbmax:fluorite_ore",
+    "hbmax:lead_ore",
+    "hbmax:lithium_ore",
+    "hbmax:nether_fire_ore",
+    "hbmax:nether_smoldering_ore",
+    "hbmax:nether_tungsten_ore",
+    "hbmax:nether_uranium_ore",
+    "hbmax:rare_ore",
+    "hbmax:reiium_ore",
+    "hbmax:salpeter_ore",
+    "hbmax:thorium_ore",
+    "hbmax:ender_tikite_ore",
+    "hbmax:ender_tikite_alt_ore",
+    "hbmax:titanium_ore",
+    "hbmax:tungsten_ore",
+    "hbmax:verticium_ore"
+  ]
+}

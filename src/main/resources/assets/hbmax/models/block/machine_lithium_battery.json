@@ -1,0 +1,9 @@
+{
+	"parent": "block/orientable",
+	"textures": {
+		"top": "hbmax:block/battery_lithium_top",
+        "bottom": "hbmax:block/battery_lithium_top",
+		"front": "hbmax:block/battery_lithium_front",
+		"side": "hbmax:block/battery_lithium_side"
+	}
+}

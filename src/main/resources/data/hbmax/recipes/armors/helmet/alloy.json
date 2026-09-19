@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": { "tag": "forge:ingots/advanced_alloy" }
+  },
+  "pattern": [
+    "MMM",
+    "M M"
+  ],
+  "result": {
+    "item": "hbmax:alloy_helmet",
+    "count": 1
+  },
+  "show_notification": false
+}

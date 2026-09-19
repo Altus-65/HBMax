@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:digamma_know"
+		},
+		"title": {
+			"translate": "hbmax.achievement.digammaKnow"
+		},
+		"description": {
+			"translate": "hbmax.achievement.digammaKnow.desc"
+		},
+		"frame": "challenge"
+	},
+	"parent": "hbmax:digammafeel",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+    "rewards": {
+        "experience": 500
+    }
+}

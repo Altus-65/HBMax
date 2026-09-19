@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "hbmax:block/ender_tikite_alt_ore"
+  }
+}

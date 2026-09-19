@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:bob_oil"
+		},
+		"title": {
+			"translate": "hbmax.achievement.boboil"
+		},
+		"description": {
+			"translate": "hbmax.achievement.boboil.desc"
+		}
+	},
+	"parent": "hbmax:bobchemistry",
+	"criteria": {
+		"crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:oil_tar"
+                    }
+                ]
+            }
+        }
+	},
+    "rewards": {
+        "experience": 100
+    }
+}

@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:machine_chemplant"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_chemplant"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_chemplant.desc"
+		}
+	},
+	"parent": "hbmax:progress_soldering",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:machine_chemplant"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 20
+    }
+}

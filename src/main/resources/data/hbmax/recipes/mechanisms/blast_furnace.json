@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": { "item": "minecraft:stone_bricks" },
+    "G": { "tag": "forge:ingots/copper" },
+    "R": { "item": "hbmax:ingot_firebrick" }
+  },
+  "pattern": [
+    "CCC",
+    "RGR",
+    "RGR"
+  ],
+  "result": {
+    "item": "hbmax:machine_blast_furnace",
+    "count": 1
+  },
+  "show_notification": true
+}

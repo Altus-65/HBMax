@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": { "tag": "forge:ingots/steel" },
+    "S": { "item": "minecraft:stick" }
+  },
+  "pattern": [
+    " M ",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "hbmax:steel_shovel",
+    "count": 1
+  },
+  "show_notification": false
+}

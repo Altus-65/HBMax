@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "hbmax:block/test"
+    }
+  }
+}

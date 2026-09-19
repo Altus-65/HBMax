@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:rbmk_fuel_empty"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_rbmk"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_rbmk.desc"
+		}
+	},
+	"parent": "hbmax:progress_concrete",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:rbmk_fuel_empty"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 27
+    }
+}

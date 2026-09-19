@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": { "item": "hbmax:ingot_advanced_alloy" }
+  },
+  "pattern": [
+    " TT",
+    " T ",
+    "TT "
+  ],
+  "result": {
+    "item": "hbmax:wire_advanced_alloy",
+    "count": 16
+  },
+  "show_notification": false
+}

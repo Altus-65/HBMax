@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:sat_gerald"
+		},
+		"title": {
+			"translate": "hbmax.achievement.horizonsEnd"
+		},
+		"description": {
+			"translate": "hbmax.achievement.horizonsEnd.desc"
+		}
+	},
+	"parent": "hbmax:horizonsstart",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+    "rewards": {
+        "experience": 200
+    }
+}

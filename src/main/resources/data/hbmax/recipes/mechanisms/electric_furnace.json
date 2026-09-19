@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": { "tag": "forge:ingots/beryllium" },
+    "P": { "tag": "forge:plates/copper" },
+    "F": { "item": "minecraft:furnace" },
+    "C": { "item": "hbmax:coil_tungsten"}
+  },
+  "pattern": [
+    "BBB",
+    "PFP",
+    "CCC"
+  ],
+  "result": {
+    "item": "hbmax:electric_furnace",
+    "count": 1
+  },
+  "show_notification": true
+}

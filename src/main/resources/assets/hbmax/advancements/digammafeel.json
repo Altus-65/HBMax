@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:digamma_feel"
+		},
+		"title": {
+			"translate": "hbmax.achievement.digammaFeel"
+		},
+		"description": {
+			"translate": "hbmax.achievement.digammaFeel.desc"
+		}
+	},
+	"parent": "hbmax:digammasee",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+    "rewards": {
+        "experience": 250
+    }
+}

@@ -1,0 +1,5 @@
+{
+  "loader": "forge:obj",
+  "model": "hbmax:models/block/test.obj",
+  "flip_v": true
+}

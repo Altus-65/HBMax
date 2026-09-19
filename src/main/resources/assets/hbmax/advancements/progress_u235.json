@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:ingot_u235"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_u235"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_u235.desc"
+		},
+		"frame": "goal"
+	},
+	"parent": "hbmax:progress_gc_speed",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:nugget_u235"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 36
+    }
+}

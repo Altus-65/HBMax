@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom,variant=default": { "model": "hbmax:half_slab_brick_asbestos" },
+        "half=top,variant=default": { "model": "hbmax:upper_slab_brick_asbestos" }
+    }
+}

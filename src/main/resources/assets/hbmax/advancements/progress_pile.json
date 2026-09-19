@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:pile_rod_plutonium"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_pile"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_pile.desc"
+		},
+		"frame": "challenge"
+	},
+	"parent": "hbmax:progress_radium",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:pile_rod_plutonium"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 40
+    }
+}

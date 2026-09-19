@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "hbmax:powder_desh_mix" },
+    { "item": "minecraft:water_bucket" }
+  ],
+  "result": {
+    "item": "hbmax:ingot_desh"
+  }
+}

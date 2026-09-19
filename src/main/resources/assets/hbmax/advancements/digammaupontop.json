@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:digamma_up_on_top"
+		},
+		"title": {
+			"translate": "hbmax.achievement.digammaUpOnTop"
+		},
+		"description": {
+			"translate": "hbmax.achievement.digammaUpOnTop.desc"
+		},
+		"frame": "challenge"
+	},
+	"parent": "hbmax:digammakauaimoho",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+    "rewards": {
+        "experience": 1000
+    }
+}

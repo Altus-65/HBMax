@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "hbmax:australium_ore",
+    "hbmax:cobalt_ore",
+    "hbmax:daffergon_ore",
+    "hbmax:daffgon_ore",
+    "hbmax:nether_cobalt_ore",
+    "hbmax:nether_plutonium_ore",
+    "hbmax:nether_schrabidium_ore",
+    "hbmax:schrabidium_ore",
+    "hbmax:unobtainium_ore",
+    "hbmax:waidanium_ore"
+  ]
+}

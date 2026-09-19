@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "baked_potato"
+		},
+		"title": {
+			"translate": "hbmax.achievement.soyuz"
+		},
+		"description": {
+			"translate": "hbmax.achievement.soyuz.desc"
+		},
+		"frame": "challenge"
+	},
+	"parent": "hbmax:space",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+    "rewards": {
+        "experience": 30
+    }
+}

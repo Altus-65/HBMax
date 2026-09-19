@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": { "tag": "forge:ingots/tungsten" },
+    "P": { "tag": "forge:plates/copper" },
+    "T": { "item": "hbmax:machine_transformer" },
+    "F": { "item": "minecraft:furnace" }
+  },
+  "pattern": [
+    "ITI",
+    "PFP",
+    "ITI"
+  ],
+  "result": {
+    "item": "hbmax:machine_arc_furnace_off",
+    "count": 1
+  },
+  "show_notification": true
+}

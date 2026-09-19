@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:ingot_ra226"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_radium"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_radium.desc"
+		},
+		"frame": "goal"
+	},
+	"parent": "hbmax:progress_centrifuge_1",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:nugget_ra226"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 37
+    }
+}

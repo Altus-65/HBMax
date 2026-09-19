@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north": { "model": "hbmax:block/boat" },
+     	   	"facing=south": { "model": "hbmax:block/boat" },
+      	  	"facing=west":  { "model": "hbmax:block/boat" },
+      		"facing=east":  { "model": "hbmax:block/boat" }
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:coin_radiation"
+		},
+		"title": {
+			"translate": "hbmax.achievement.bossMeltdown"
+		},
+		"description": {
+			"translate": "hbmax.achievement.bossMeltdown.desc"
+		}
+	},
+	"parent": "hbmax:x_bosscreeper",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+    "rewards": {
+        "experience": 40
+    }
+}

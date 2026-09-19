@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:particle_digamma"
+		},
+		"title": {
+			"translate": "hbmax.achievement.omega12"
+		},
+		"description": {
+			"translate": "hbmax.achievement.omega12.desc"
+		},
+		"frame": "challenge"
+	},
+	"parent": "hbmax:progress_hadron",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraftax:impossible"
+		}
+	},
+    "rewards": {
+        "experience": 5000
+    }
+}

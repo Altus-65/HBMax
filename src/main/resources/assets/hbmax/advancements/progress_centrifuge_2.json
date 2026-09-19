@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:machine_gascent"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_centrifuge_2"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_centrifuge_2.desc"
+		}
+	},
+	"parent": "hbmax:progress_desh",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:machine_gascent"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 30
+    }
+}

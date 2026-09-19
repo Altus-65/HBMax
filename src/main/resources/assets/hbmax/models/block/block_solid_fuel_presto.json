@@ -1,0 +1,8 @@
+{
+	"parent": "block/cube_bottom_top",
+	"textures": {
+		"side": "hbmax:block/block_solid_fuel_presto_side",
+		"bottom": "hbmax:block/block_solid_fuel_presto",
+		"top": "hbmax:block/block_solid_fuel_presto"
+	}
+}

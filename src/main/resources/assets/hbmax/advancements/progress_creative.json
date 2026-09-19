@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:battery_sc_electronium"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_creative"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_creative.desc"
+		},
+		"frame": "challenge"
+	},
+	"parent": "hbmax:progress_dfc",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:battery_sc_electronium"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 100000
+    }
+}

@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:machine_schrabidium_transmutator"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_transmut"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_transmut.desc"
+		}
+	},
+	"parent": "hbmax:progress_ore_schrab",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:machine_schrabidium_transmutator"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 47
+    }
+}

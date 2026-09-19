@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:machine_fensu"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_fensu"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_fensu.desc"
+		},
+		"frame": "challenge"
+	},
+	"parent": "hbmax:progress_dineutronium",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:machine_fensu"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 10000
+    }
+}

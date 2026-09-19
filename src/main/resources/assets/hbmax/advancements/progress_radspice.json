@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:ingot_radspice"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_radspice"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_radspice.desc"
+		},
+		"frame": "challenge"
+	},
+	"parent": "hbmax:progress_srb",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:powder_radspice"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 300
+    }
+}

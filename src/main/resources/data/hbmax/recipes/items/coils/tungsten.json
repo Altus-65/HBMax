@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": { "item": "hbmax:wire_tungsten" },
+    "I": { "item": "minecraft:iron_ingot" }
+  },
+  "pattern": [
+    "WWW",
+    "WIW",
+    "WWW"
+  ],
+  "result": {
+    "item": "hbmax:coil_tungsten",
+    "count": 1
+  },
+  "show_notification": false
+}

@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:ingot_desh"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_desh"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_desh.desc"
+		},
+		"frame": "goal"
+	},
+	"parent": "hbmax:progress_chemplant",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:ingot_desh"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 120
+    }
+}

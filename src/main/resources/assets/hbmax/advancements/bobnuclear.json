@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:bob_nuclear"
+		},
+		"title": {
+			"translate": "hbmax.achievement.bobnuclear"
+		},
+		"description": {
+			"translate": "hbmax.achievement.bobnuclear.desc"
+		}
+	},
+	"parent": "hbmax:boboil",
+	"criteria": {
+		"crafting_table": {
+            "trigger": "minecraftax:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:ingot_pu241"
+                    }
+                ]
+            }
+        }
+	},
+    "rewards": {
+        "experience": 200
+    }
+}

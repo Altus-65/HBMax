@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:shimmer_sledge"
+		},
+		"title": {
+			"translate": "hbmax.achievement.fiend"
+		},
+		"description": {
+			"translate": "hbmax.achievement.fiend.desc"
+		},
+		"frame": "challenge"
+	},
+	"parent": "hbmax:progress_desh",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+    "rewards": {
+        "experience": 10
+    }
+}

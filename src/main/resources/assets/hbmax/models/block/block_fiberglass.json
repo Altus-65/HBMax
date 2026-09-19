@@ -1,0 +1,7 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"end": "hbmax:block/block_fiberglass_top",
+		"side": "hbmax:block/block_fiberglass_side"
+	}
+}

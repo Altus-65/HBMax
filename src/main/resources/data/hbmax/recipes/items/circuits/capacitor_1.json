@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": { "item": "hbmax:plate_polymer" },
+    "D": { "tag": "forge:dusts/aluminium" },
+    "W": [
+      { "item": "hbmax:wire_aluminium" },
+      { "item": "hbmax:wire_copper" }
+    ]
+  },
+  "pattern": [
+    "PDP",
+    "W W"
+  ],
+  "result": {
+    "item": "hbmax:circuit_capacitor",
+    "count": 2
+  },
+  "show_notification": true
+}

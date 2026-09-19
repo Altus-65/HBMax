@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "hbmax:block/cable_neo",
+    "up": "hbmax:block/cable_neo",
+    "north": "hbmax:block/cable_neo",
+    "south": "hbmax:block/cable_neo",
+    "west": "hbmax:block/cable_neo",
+    "east": "hbmax:block/cable_neo"
+  }
+}

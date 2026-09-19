@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": { "item": "hbmax:plate_polymer" },
+    "G": { "tag": "forge:glass_panes" },
+    "W": [
+      { "item": "hbmax:wire_tungsten" },
+      { "item": "hbmax:wire_carbon" }
+    ]
+  },
+  "pattern": [
+    " G ",
+    " W ",
+    " P "
+  ],
+  "result": {
+    "item": "hbmax:circuit_capacitor",
+    "count": 1
+  },
+  "show_notification": true
+}

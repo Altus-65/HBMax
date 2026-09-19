@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:ingot_schrabidium"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_schrabidium"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_schrabidium.desc"
+		},
+		"frame": "goal"
+	},
+	"parent": "hbmax:progress_transmut",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:ingot_schrabidium"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 100
+    }
+}

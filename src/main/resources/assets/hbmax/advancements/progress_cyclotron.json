@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:machine_cyclotron"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_cyclotron"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_cyclotron.desc"
+		}
+	},
+	"parent": "hbmax:progress_desh",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:machine_cyclotron"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 60
+    }
+}

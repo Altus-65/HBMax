@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:machine_silex"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_silex"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_silex.desc"
+		}
+	},
+	"parent": "hbmax:progress_pu239",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:machine_silex"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 57
+    }
+}

@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:machine_soldering_station"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_soldering"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_soldering.desc"
+		}
+	},
+	"parent": "hbmax:progress_crucible",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:machine_soldering_station"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 10
+    }
+}

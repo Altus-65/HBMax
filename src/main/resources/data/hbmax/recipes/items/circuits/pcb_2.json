@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": { "item": "hbmax:plate_polymer" },
+    "N": { "item": "hbmax:plate_gold" }
+  },
+  "pattern": [
+    " P ",
+    " N "
+  ],
+  "result": {
+    "item": "hbmax:circuit_capacitor",
+    "count": 1
+  },
+  "show_notification": true
+}

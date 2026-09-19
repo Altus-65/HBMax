@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y": { "model": "hbmax:block/block_insulator" },
+        "axis=z": { "model": "hbmax:block/block_insulator", "x": 90 },
+        "axis=x": { "model": "hbmax:block/block_insulator", "x": 90, "y": 90 }
+    }
+}

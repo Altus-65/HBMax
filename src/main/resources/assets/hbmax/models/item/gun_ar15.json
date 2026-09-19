@@ -1,0 +1,114 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "builtin/entity",
+  "texture_size": [
+    128,
+    128
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        -5.5,
+        1.5
+      ],
+      "scale": [
+        0.61,
+        0.69,
+        0.66
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        0,
+        -4.5,
+        0
+      ],
+      "scale": [
+        0.59,
+        0.64,
+        0.64
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        1,
+        0
+      ],
+      "translation": [
+        0,
+        -5,
+        1
+      ]
+    },
+    "firstperson_lefthand": {
+      "translation": [
+        1.25,
+        -6.5,
+        2
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        0,
+        7
+      ],
+      "scale": [
+        0.82813,
+        0.79688,
+        0.85922
+      ]
+    },
+    "gui": {
+      "rotation": [
+        90,
+        58,
+        -90
+      ],
+      "translation": [
+        2,
+        -6.5,
+        0
+      ],
+      "scale": [
+        0.7,
+        0.575,
+        0.58281
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        5.25,
+        -6.75,
+        0
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    },
+    "on_shelf": {
+      "rotation": [
+        89,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        -5.25
+      ]
+    }
+  },
+  "textures": {
+    "particle": "hbmax:item/ar15"
+  }
+}

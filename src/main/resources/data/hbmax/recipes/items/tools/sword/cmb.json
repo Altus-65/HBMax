@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": { "tag": "forge:ingots/cmb" },
+    "S": { "item": "minecraft:stick" }
+  },
+  "pattern": [
+    " M ",
+    " M ",
+    " S "
+  ],
+  "result": {
+    "item": "hbmax:cmb_sword",
+    "count": 1
+  },
+  "show_notification": false
+}

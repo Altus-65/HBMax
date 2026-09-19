@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:concrete_asbestos"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_concrete"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_concrete.desc"
+		}
+	},
+	"parent": "hbmax:progress_chemplant",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:concrete_asbestos"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 28
+    }
+}

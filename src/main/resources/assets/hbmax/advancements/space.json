@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:missile_carrier"
+		},
+		"title": {
+			"translate": "hbmax.achievement.space"
+		},
+		"description": {
+			"translate": "hbmax.achievement.space.desc"
+		},
+		"frame": "challenge"
+	},
+	"parent": "hbmax:progress_chemplant",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+    "rewards": {
+        "experience": 300
+    }
+}

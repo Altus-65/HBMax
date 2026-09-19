@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "hbmax:sulfur_ore",
+    "hbmax:nether_sulfur_ore"
+  ]
+}

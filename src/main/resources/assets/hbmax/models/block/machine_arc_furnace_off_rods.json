@@ -1,0 +1,12 @@
+{
+	"parent": "block/cube",
+	"textures": {
+		"particle": "hbmax:block/machine_arc_furnace_side",
+		"down": "hbmax:block/machine_arc_furnace_bottom",
+		"up": "hbmax:block/machine_arc_furnace_top_rods",
+		"north": "hbmax:block/machine_arc_furnace_front_off",
+		"east": "hbmax:block/machine_arc_furnace_side",
+		"south": "hbmax:block/machine_arc_furnace_side",
+		"west": "hbmax:block/machine_arc_furnace_side"
+	}
+}

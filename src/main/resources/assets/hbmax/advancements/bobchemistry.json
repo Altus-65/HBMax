@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:bob_chemistry"
+		},
+		"title": {
+			"translate": "hbmax.achievement.bobchemistry"
+		},
+		"description": {
+			"translate": "hbmax.achievement.bobchemistry.desc"
+		}
+	},
+	"parent": "hbmax:bobassembly",
+	"criteria": {
+		"crafting_table": {
+            "trigger": "minecraftax:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:ingot_rubber"
+                    }
+                ]
+            }
+        }
+	},
+    "rewards": {
+        "experience": 100
+    }
+}

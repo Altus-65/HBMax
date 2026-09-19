@@ -1,0 +1,8 @@
+{
+	"parent": "block/cube_bottom_top",
+	"textures": {
+		"top": "hbmax:block/block_graphite_rod_out",
+		"bottom": "hbmax:block/block_graphite_rod_out",
+		"side": "hbmax:block/block_graphite"
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:battery_potatos"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_potatos"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_potatos.desc"
+		},
+		"frame": "challenge"
+	},
+	"parent": "hbmax:x_progress_polymer",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:battery_potatos"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 47
+    }
+}

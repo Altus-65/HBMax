@@ -1,0 +1,15 @@
+{
+  "type": "hbmax:blast_furnace",
+  "input1": {
+    "item": "hbmax:ingot_red_copper"
+  },
+  "input2": {
+    "tag": "forge:ingots/steel"
+  },
+  "output": {
+    "item": "hbmax:ingot_advanced_alloy",
+    "count": 2
+  },
+  "requiredHeat": 1500,
+  "processingTime": 200
+}

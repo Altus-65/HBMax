@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": { "item": "minecraft:clay_ball" },
+    "A": [
+      { "item": "hbmax:powder_aluminium" },
+      { "item": "hbmax:aluminium_ore" },
+      { "tag": "forge:ores/aluminium" }
+    ]
+  },
+  "pattern": [
+    "CC",
+    "CA"
+  ],
+  "result": {
+    "item": "hbmax:ball_fireclay",
+    "count": 4
+  },
+  "show_notification": true
+}

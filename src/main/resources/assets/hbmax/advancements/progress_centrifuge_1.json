@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:machine_centrifuge"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_centrifuge_1"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_centrifuge_1.desc"
+		}
+	},
+	"parent": "hbmax:x_progress_polymer",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:machine_centrifuge"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 27
+    }
+}

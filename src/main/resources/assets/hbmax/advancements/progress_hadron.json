@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:hadron_core"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_hadron"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_hadron.desc"
+		}
+	},
+	"parent": "hbmax:progress_schrabidium",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:hadron_core"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 1000
+    }
+}

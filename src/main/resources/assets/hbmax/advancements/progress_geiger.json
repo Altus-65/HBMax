@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:geiger_counter"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_geiger"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_geiger.desc"
+		}
+	},
+	"parent": "hbmax:progress_dosimeter",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:geiger_counter"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 37
+    }
+}

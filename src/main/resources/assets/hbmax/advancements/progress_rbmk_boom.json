@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:debris_fuel"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_rbmk_boom"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_rbmk_boom.desc"
+		},
+		"frame": "challenge"
+	},
+	"parent": "hbmax:progress_rbmk",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:debris_fuel"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200
+    }
+}

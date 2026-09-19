@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "hbmax:lignite_ore",
+    "hbmax:malachite_ore",
+    "hbmax:nether_coal_ore",
+    "hbmax:nether_sulfur_ore",
+    "hbmax:niter_ore",
+    "hbmax:sulfur_ore"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": {
+    "item": "hbmax:thorium_ore"
+  },
+  "result": "hbmax:ingot_th232",
+  "experience": 0.7,
+  "cookingtime": 200
+}

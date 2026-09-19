@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:watz"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_watz_boom"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_watz_boom.desc"
+		},
+		"frame": "challenge"
+	},
+	"parent": "hbmax:progress_watz",
+	"criteria": {
+        "impossible": {
+			"trigger": "minecraft:impossible"
+		}
+    },
+    "rewards": {
+        "experience": 45
+    }
+}

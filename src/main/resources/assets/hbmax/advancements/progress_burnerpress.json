@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:machine_press"
+		},
+		"title": {
+			"translate": "hbmax.achievement.aa_progress_burnerpress"
+		},
+		"description": {
+			"translate": "hbmax.achievement.aa_progress_burnerpress.desc"
+		}
+	},
+	"parent": "hbmax:root",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:machine_press"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 16
+    }
+}

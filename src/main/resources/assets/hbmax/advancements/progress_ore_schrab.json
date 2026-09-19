@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:ore_schrabidium"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_ore_schrab"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_ore_schrab.desc"
+		}
+	},
+	"parent": "hbmax:progress_nuke",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:ore_schrabidium"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 47
+    }
+}

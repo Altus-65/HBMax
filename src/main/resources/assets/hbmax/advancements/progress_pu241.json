@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:ingot_pu241"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_pu241"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_pu241.desc"
+		},
+		"frame": "goal"
+	},
+	"parent": "hbmax:progress_silex",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:nugget_pu241"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200
+    }
+}

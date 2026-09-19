@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:singularity_spark"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_singularity_spark"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_singularity_spark.desc"
+		},
+		"frame": "challenge"
+	},
+	"parent": "hbmax:progress_hadron",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:singularity_spark"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 7000
+    }
+}

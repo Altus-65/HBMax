@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": { "tag": "forge:ingots/desh" },
+    "S": { "item": "minecraft:stick" }
+  },
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "result": {
+    "item": "hbmax:desh_axe",
+    "count": 1
+  },
+  "show_notification": false
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": { "tag": "forge:ingots/aluminium" }
+  },
+  "pattern": [
+    " TT",
+    " T ",
+    "TT "
+  ],
+  "result": {
+    "item": "hbmax:wire_aluminium",
+    "count": 16
+  },
+  "show_notification": false
+}

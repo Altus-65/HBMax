@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:template_folder"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_folder"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_folder.desc"
+		}
+	},
+	"parent": "hbmax:progress_assembler",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:template_folder"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 17
+    }
+}

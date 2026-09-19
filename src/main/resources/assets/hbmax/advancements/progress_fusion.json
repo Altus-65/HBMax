@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:struct_iter_core"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_fusion"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_fusion.desc"
+		}
+	},
+	"parent": "hbmax:progress_bismuth",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:struct_iter_core"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 45
+    }
+}

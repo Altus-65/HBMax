@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:machine_difurnace_on"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_difurnace"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_difurnace.desc"
+		}
+	},
+	"parent": "hbmax:progress_burnerpress",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:machine_difurnace_off"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 9
+    }
+}

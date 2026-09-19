@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "hbmax:block/blast_furnace_front_off",
+    "down": "hbmax:block/blast_furnace_top_off",
+    "up": "hbmax:block/blast_furnace_top_off",
+    "north": "hbmax:block/blast_furnace_front_off",
+    "east": "hbmax:block/blast_furnace_side",
+    "south": "hbmax:block/blast_furnace_side",
+    "west": "hbmax:block/blast_furnace_side"
+  }
+}

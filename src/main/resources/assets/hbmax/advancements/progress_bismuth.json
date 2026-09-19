@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:ingot_bismuth"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_bismuth"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_bismuth.desc"
+		},
+		"frame": "goal"
+	},
+	"parent": "hbmax:progress_silex",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:ingot_bismuth"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 147
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "hbmax:item/battery_generic_alt",
+    "layer1": "hbmax:item/battery_schrabidium_e"
+  }
+}

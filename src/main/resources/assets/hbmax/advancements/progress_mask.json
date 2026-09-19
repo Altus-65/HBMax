@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:mask_damp"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_mask"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_mask.desc"
+		}
+	},
+	"parent": "hbmax:root",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:mask_damp"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 47
+    }
+}

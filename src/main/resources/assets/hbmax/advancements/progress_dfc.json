@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:dfc_core"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_dfc"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_dfc.desc"
+		}
+	},
+	"parent": "hbmax:progress_osmiridium",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+    "rewards": {
+        "experience": 200
+    }
+}

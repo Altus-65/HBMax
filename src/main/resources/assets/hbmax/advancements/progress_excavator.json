@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:machine_excavator"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_excavator"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_excavator.desc"
+		}
+	},
+	"parent": "hbmax:progress_assembler",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:machine_excavator"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 10
+    }
+}

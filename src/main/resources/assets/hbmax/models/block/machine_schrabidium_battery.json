@@ -1,0 +1,9 @@
+{
+	"parent": "block/orientable",
+	"textures": {
+		"top": "hbmax:block/battery_schrabidium_top",
+        "bottom": "hbmax:block/battery_schrabidium_top",
+		"front": "hbmax:block/battery_schrabidium_front",
+		"side": "hbmax:block/battery_schrabidium_side"
+	}
+}

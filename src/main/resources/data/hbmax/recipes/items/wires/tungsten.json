@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": { "tag": "forge:ingots/tungsten" }
+  },
+  "pattern": [
+    " TT",
+    " T ",
+    "TT "
+  ],
+  "result": {
+    "item": "hbmax:wire_tungsten",
+    "count": 16
+  },
+  "show_notification": false
+}

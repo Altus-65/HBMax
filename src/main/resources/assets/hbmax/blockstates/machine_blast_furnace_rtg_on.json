@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north": { "model": "hbmax:machine_rtg_difurnace_on" },
+		"facing=south": { "model": "hbmax:machine_rtg_difurnace_on", "y": 180 },
+		"facing=west": { "model": "hbmax:machine_rtg_difurnace_on", "y": 270 },
+		"facing=east": { "model": "hbmax:machine_rtg_difurnace_on", "y": 90 }
+	}
+}

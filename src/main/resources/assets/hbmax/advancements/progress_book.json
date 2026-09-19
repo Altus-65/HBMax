@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:book_of_"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_book"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_book.desc"
+		}
+	},
+	"parent": "hbmax:root",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:book_of_"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 4000
+    }
+}

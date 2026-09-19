@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:struct_watz_core"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_watz"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_watz.desc"
+		}
+	},
+	"parent": "hbmax:progress_bismuth",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:struct_watz_core"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 45
+    }
+}

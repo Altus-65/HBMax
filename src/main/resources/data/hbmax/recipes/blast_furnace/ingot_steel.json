@@ -1,0 +1,17 @@
+{
+  "type": "hbmax:blast_furnace",
+  "input1": {
+    "tag": "forge:ingots/iron"
+  },
+  "input2": [
+    { "tag": "forge:dusts/coal" },
+    { "item": "minecraft:coal" },
+    { "item": "hbmax:lignite" }
+  ],
+  "output": {
+    "item": "hbmax:ingot_steel",
+    "count": 2
+  },
+  "requiredHeat": 1500,
+  "processingTime": 200
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": {
+    "item": "hbmax:aluminium_ore"
+  },
+  "result": "hbmax:ingot_aluminium",
+  "experience": 0.7,
+  "cookingtime": 200
+}

@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:anvil_iron"
+		},
+		"title": {
+			"translate": "hbmax.achievement.progress_anvil"
+		},
+		"description": {
+			"translate": "hbmax.achievement.progress_anvil.desc"
+		}
+	},
+	"parent": "hbmax:root",
+	"criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hbmax:anvil_iron"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 17
+    }
+}

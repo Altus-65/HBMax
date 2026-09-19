@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbmax:shimmer_axe"
+		},
+		"title": {
+			"translate": "hbmax.achievement.fiend2"
+		},
+		"description": {
+			"translate": "hbmax.achievement.fiend2.desc"
+		},
+		"frame": "challenge"
+	},
+	"parent": "hbmax:achfiend",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+    "rewards": {
+        "experience": 20
+    }
+}

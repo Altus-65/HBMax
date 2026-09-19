@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": { "tag": "minecraft:wool" },
+    "W": { "item": "minecraft:string" }
+  },
+  "pattern": [
+    "WCW"
+  ],
+  "result": {
+    "item": "hbmax:plate_polymer",
+    "count": 4
+  },
+  "show_notification": false
+}

@@ -1,0 +1,5 @@
+{
+	"variants": {
+		"": { "model": "hbmax:block/bm_power_box" }
+	}
+}

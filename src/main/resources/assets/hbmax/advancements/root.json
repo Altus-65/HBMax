@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "hbmax:decontamination_module"
+        },
+        "title": {
+            "translate": "hbmax.advancement.root"
+        },
+        "description": {
+            "translate": "hbmax.advancement.root.desc"
+        },
+        "background": "hbmax:textures/blocks/brick_concrete.png",
+        "show_toast": true,
+        "announce_to_chat": false,
+    "hidden": false
+    },
+    "criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:crafting_table"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 7
+    }
+}

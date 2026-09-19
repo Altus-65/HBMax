@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north": { "model": "hbmax:block/machine_saturnite_battery" },
+     	   	"facing=south": { "model": "hbmax:block/machine_saturnite_battery", "y": 180 },
+      	  	"facing=west":  { "model": "hbmax:block/machine_saturnite_battery", "y": 270 },
+      		"facing=east":  { "model": "hbmax:block/machine_saturnite_battery", "y": 90 }
+	}
+}
