@@ -205,32 +205,22 @@ tasks.withType(JavaCompile).configureEach {
 tasks.register('deployToPrism') {
     dependsOn 'build'  // Сначала выполняем стандартную сборку
     doLast {
-        // 1. НАСТРОЙ ЭТИ ПЕРЕМЕННЫЕ ПОД СЕБЯ
-        // Название твоего экземпляра (инстанса) в Prism Launcher
         def instanceName = "1.20.1"
-        // Путь к папке, где Prism Launcher хранит все твои экземпляры
         def prismInstancesPath = "${System.getProperty('user.home')}/.local/share/PrismLauncher/instances"
 
-        // 2. НАХОДИМ ТВОЙ ЭКЗЕМПЛЯР
         def instanceDir = file("${prismInstancesPath}/${instanceName}")
         if (!instanceDir.exists()) {
             throw new GradleException("Ошибка: Экземпляр Prism Launcher '${instanceName}' не найден по пути ${instanceDir}")
         }
 
-        // 3. КОПИРУЕМ ФАЙЛ
-        // Путь к только что созданному .jar файлу твоего мода
         def jarFile = tasks.jar.archiveFile.get().asFile
-        // Папка с модами твоего экземпляра Prism Launcher
         def modsDir = file("${instanceDir}/minecraft/mods")
 
-        // Создаем папку для модов, если её вдруг нет
         mkdir(modsDir)
 
-        // Копируем файл
         copy {
             from jarFile
             into modsDir
-            // Переименовываем файл, чтобы избежать конфликта с предыдущей версией
             rename { String fileName ->
                 return "deployed_${fileName}"
             }
